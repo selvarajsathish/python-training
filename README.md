@@ -1,7 +1,6 @@
-
 # Python Training
-	This hithub repository created for learning the **python** programming language.
-	here i will commit the execise program provided by **Mr.Rengaraj**.
+	This hithub repository created for learning the python programming language.
+	here I will commit the execise program provided by Mr.Rengaraj
 
 # Prerequisites:
 	1.Need one laptop or desktop 
