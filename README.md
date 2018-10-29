@@ -1,2 +1,4 @@
-# python-training
-This repository for learning the python programming 
+# Python Training
+	This Github repository created for learning python.
+	Here I will commit the execise program.
+
