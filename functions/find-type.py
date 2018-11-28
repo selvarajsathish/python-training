@@ -1,5 +1,6 @@
-def find_type_arg():
-	arg=input("enter a arguement to find its type :")
-	print type(arg)
+def find_type_arg(value): # Fuction to find type of given value.	
+	print type(value)
 
-find_type_arg()
+if __name__ == '__main__':
+	arg=input("enter a arguement to find its type :")
+	find_type_arg(arg)
