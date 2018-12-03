@@ -23,14 +23,6 @@ def sum_of_inputs(x,y):
 if __name__ == '__main__':
 	"""main function to get user input and call sum_of_inputs fuction to perform sum and return value.
 
-    Args:
-       a (int or str): The first parameter.
-       b (int or str): The second parameter.
-
-    Returns:
-        ret = -1: The return value, when both arguments types are other than int or str.
-        ret = x+y:The return value, when both arguments types are either int or str
-
     """
 	a,b=input("enter a two values to be sum :")		
 	ret=sum_of_inputs(a,b)

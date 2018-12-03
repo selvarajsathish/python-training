@@ -16,9 +16,7 @@ def find_type_arg(value):
 
 if __name__ == '__main__':
 	"""main function to get user input and call find_type_arg fuction to print type of value.
-
-    Args:
-       arg : any type of parameter entered by user.
+	
     """
 	arg=input("enter a arguement to find its type :")
 	find_type_arg(arg)
