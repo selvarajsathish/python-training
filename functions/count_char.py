@@ -14,19 +14,14 @@ def count_char(string,char):
     	string='hello selva',char='x'     | return -1
     	
     """	
-	if not string:
-		print "Invalid string"
-	elif not char:
-		print "No char is entered to find in string"
+	if char not in string:
+		return -1	
 	else:
 		count=0
-		for charater in string:
-			if charater==char:
-				count=count+1
-		if count <=0:
-			return -1
-		else: 
-			return count
+		for character in string:
+			if character==char:
+				count+=1
+		return count
 
 if __name__ == '__main__':
 	"""main function to get user input and call count_char function.
