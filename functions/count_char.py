@@ -15,13 +15,13 @@ def count_char(string,char):
     	
     """	
 	if char not in string:
-		return -1	
-	else:
-		count=0
-		for character in string:
-			if character==char:
-				count+=1
-		return count
+		return -1
+
+	count=0
+	for character in string:
+		if character==char:
+			count+=1
+	return count
 
 if __name__ == '__main__':
 	"""main function to get user input and call count_char function.
