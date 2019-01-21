@@ -17,19 +17,19 @@ def count_char(string,char):
 	if char not in string:
 		return -1
 
-	count=0
+	count = 0
 	for character in string:
-		if character==char:
-			count+=1
+		if character == char:
+			count += 1
 	return count
 
 if __name__ == '__main__':
 	"""main function to get user input and call count_char function.
     """
-	string=input("enter a string..:")
-	char=input("enter a characer to find in string..:")
-	ret=count_char(string,char)
-	if ret== -1:
+	string = input("enter a string..:")
+	char = input("enter a characer to find in string..:")
+	ret = count_char(string, char)
+	if ret == -1:
 		print "given character not present in given string"
 	else:
 		print ret
