@@ -12,12 +12,7 @@ def frequency_of_characters(string):
   for char in string:
     char_cnt = string.count(char)
     str_dict[char] = char_cnt
-  ls = []  
-  for i in (list(string)):
-    if i not in ls:
-      ls.append(i)
-  for i in ls:
-    print ("(%s : %s)" %(i, str_dict[i])),
+  return str_dict
   
 
 
@@ -28,4 +23,4 @@ if __name__ == '__main__':
 	if string.isspace():
 		print 'enter a valid string'
 	else:
-		frequency_of_characters(string)
+		print frequency_of_characters(string)

@@ -10,9 +10,11 @@ def system_to_ip_map(sys_names, ips):
 
         [('system1', '192.168.1.2'), ('system2', '192.168.1.3')]
     """ 
+    sys_ip_lst=[]
     l = min(len(sys_names), len(ips))
     for i in range(l):
-        print ("(%s : %s)" %(sys_names[i], ips[i])),
+        sys_ip_lst.append((sys_names[i], ips[i]))
+    return sys_ip_lst
 
 if __name__ == '__main__':
 	"""main function to get user input and call system_to_ip_map function.
@@ -22,4 +24,4 @@ if __name__ == '__main__':
 	if sys_names == ' ' or ips == ' ':
 		print "atleast one systen name and ip should be entered"
 	else:
-		system_to_ip_map(sys_names, ips)
+		print system_to_ip_map(sys_names, ips)
