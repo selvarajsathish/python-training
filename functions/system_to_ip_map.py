@@ -1,19 +1,19 @@
 def system_to_ip_map(sys_names, ips):
     """function to map system with ip address and return prints the output.
     Args:
-       sys(tuple): The first parameter -system names
-       ips(tuple): The second parameter -ip address of system
+       sys(tuple): The first parameter - system names
+       ips(tuple): The second parameter - ip address of system
 
     Returns:
-        Dict: The return value, dictionary with key - system name and value - ip address.
+       Dict: The return value, dictionary with key - system name and value - ip address.
 
     Example:
-        sys_names='system1','system2'
-        ips='192.168.1.2','192.168.1.3'
+       sys_names = 'system1', 'system2'
+       ips = '192.168.1.2', '192.168.1.3'
 
-        [('system1', '192.168.1.2'), ('system2', '192.168.1.3')]
+       [('system1', '192.168.1.2'), ('system2', '192.168.1.3')]
     """ 
-    sys_ip_lst=[]
+    sys_ip_lst = []
     l = min(len(sys_names), len(ips))
     for i in range(l):
         sys_ip_lst.append((sys_names[i], ips[i]))
